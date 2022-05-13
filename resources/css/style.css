@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: 'Roboto Flex', sans-serif;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 100px;
+    background-color: #FEF0D5;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    margin-left: 50px;
+}
+nav .contenido{
+    text-align: center;
+    cursor: default;
+    font-size: 20px;
+}
+.enlace{
+    margin:40px 50px;
+    font-size: 1.2em;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1200px;
+}
+.titulo{
+    background-color: #EFEFEF;
+}
+.formul{
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 2fr 4fr;
+}
+.platos{
+background-color: #EFEFEF;
+display: grid;
+grid-template-columns: 80%;
+grid-template-rows: 80%;
+justify-content: center;
+}
+.menu{
+    background-color: white;
+
+}
+.menu h2{
+    padding: 2em;
+}
+.registro h2{
+    margin-bottom: 20px;
+}
+.regplatos{
+    background-color: #EFEFEF;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 50% 40% 10%;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    padding: 2em;
+}
+ul li:hover
+{
+    color:white;
+    background-color: #7925FF;
+    cursor: pointer;
+}
+
+.registro{
+    background-color: white;
+   
+}
+.registro h2{
+    font-weight: 400;
+   
+}
+.ingredientes{
+    background-color: white;
+
+}
+.contenedor{
+    padding: 2em;
+}
+.contimagen{
+    display: flex;
+    margin-top: 10px;
+}
+.imag{
+    width: 150px;
+    height: 150px;
+    background-color: #EFEFEF;
+}
+.contimagen span{
+    color:slateblue;
+    align-self: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.entry h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.entry .codigo{
+    width: 40%;
+    padding: 0.8em;
+    background-color: #EFEFEF;
+    border-style: none;
+}
+.entry h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.entry .codigo{
+    width: 30%;
+    padding: 0.8em;
+    background-color: #EFEFEF;
+    border-style: none;
+}
+.entry h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 50;
+}
+.entry .codigo{
+    width: 30%;
+    padding: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #EFEFEF;
+    border-style: none;
+}
+.entry .nombre{
+    width: 90%;
+    padding: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #EFEFEF;
+    border-style: none;
+}
+.entry .receta{
+    width: 90%;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #EFEFEF;
+    border-style: none;
+    resize: none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table thead{
+    text-align: left;
+}
+table tbody tr td{
+    background-color: white;
+
+}
+table tr span{
+    margin-right: 28px;
+}
+table tr .listai{
+    width: 90%;
+    padding: 1.2em;
+    background-color: #EFEFEF;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+table tr .cantidadi{
+    width: 85%;
+    padding: 1.2em;
+    background-color: #EFEFEF;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.centpre
+{
+    text-align: right;
+}
+table tr .precioi{
+    width: 100%;
+    padding: 1.2em;
+    background-color: #EFEFEF;
+    border-style: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.tpr{
+    text-align: center;
+}
+tbody tr td:nth-child(1)
+{
+    width: 45%;
+}
+tbody tr td:nth-child(2)
+{
+    text-align: center;
+    width: 5%;
+}
+tbody tr td:nth-child(3)
+{
+
+    width: 30%;
+}
+tbody tr td:nth-child(4)
+{
+
+    width: 20%;
+}
+.plusc{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.plus{
+    display: inline-block;
+    width: 40px;
+    font-size: 30px;
+    background-color: #54D667;
+    border-radius: 50%;
+    color: white;
+    margin-right: 14px;
+    margin-top: 12px;
+    cursor:pointer;
+}
+thead tr th{
+    font-weight: 100;
+    color:#CDCDCD;
+    height: 55px;
+}
+
+.ingredientes h3{
+    font-size: 16px;
+    font-weight: 50;
+}
+.enviar{
+    background-color: #EFEFEF;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60%;
+}
+.botones{
+    background-color: white;
+
+}
+button{
+    width: 150px;
+    height: 38px;
+    padding: .1em;
+    border-radius: 25px;
+    border:none;
+}
+.botones button:nth-child(1)
+{
+    margin-left: 30px;
+    background-color: #7925FE;
+    color: white;
+    cursor: pointer;
+}
+.botones button:nth-child(2)
+{
+    background-color: #5B5B5B;
+    color: white;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        background-color: #FEF0D5;
+        align-items: center;
+    }
+
+    .logo{
+        width: 120px;
+       margin-left: 125px; 
+
+    }
+    
+    .formul{
+        display: grid;
+        background-color: #EFEFEF;
+        grid-template-columns: 1fr;
+    }
+    .platos{
+        background-color: #EFEFEF;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        justify-content: center;
+        margin-bottom: 15px;
+        }
+        .entry .codigo{
+            width: 100%;
+            padding: 0.8em;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #EFEFEF;
+            border-style: none;
+        }
+        .entry .nombre{
+            width: 100%;
+            padding: 0.8em;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #EFEFEF;
+            border-style: none;
+        }
+        .entry .receta{
+            width: 100%;
+            height: 120px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #EFEFEF;
+            border-style: none;
+            resize: none;
+        }
+}
